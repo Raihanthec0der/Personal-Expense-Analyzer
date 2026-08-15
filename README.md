@@ -1,71 +1,76 @@
-# Personal Expense Analyzer
+# 💰 Personal Expense Analyzer
 
-A Python-based data analysis project that analyzes personal expenses using Pandas and Matplotlib.
+A Python-based data analysis project that analyzes personal expenses using **Pandas** and **Matplotlib**.
 
-## Features
+This project was built as a practical Data Science learning project to understand how raw CSV data can be transformed into meaningful insights through data analysis and visualization.
+
+---
+
+## 📊 Project Overview
+
+The **Personal Expense Analyzer** takes a CSV file containing personal expense records and performs different types of analysis, including:
 
 - Total expense calculation
 - Average transaction analysis
 - Daily expense analysis
 - Category-wise spending analysis
 - Description-wise spending analysis
-- Top 5 spending descriptions
 - Highest and lowest expenses
-- Expense visualization
+- Top 5 spending descriptions
+- Spending trend visualization
 - Automatic chart generation
 
-## Technologies
+The project follows a simple and reusable Python structure using functions and a centralized `main()` workflow.
 
-- Python
-- Pandas
-- Matplotlib
+---
 
-## Project Structure
+## 🎯 Project Goals
 
+The main goals of this project are to practice:
+
+- Python programming
+- Pandas for data analysis
+- Data aggregation
+- `groupby()` operations
+- Data filtering and sorting
+- Date/time analysis
+- Data visualization
+- Functions and modular programming
+- Basic project organization
+- Git and GitHub workflow
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| 🐍 Python | Programming language |
+| 🐼 Pandas | Data loading and analysis |
+| 📊 Matplotlib | Data visualization |
+| 📁 CSV | Source dataset |
+| 🌐 GitHub | Version control and project hosting |
+
+---
+
+## 📁 Project Structure
+
+```text
 Personal-Expense-Analyzer/
 │
 ├── data/
-├── src/
+│   └── expenses_august_2026.csv
+│
 ├── outputs/
+│   └── charts/
+│       ├── category_spending.png
+│       ├── daily_expense_trend.png
+│       └── top_5_spending.png
+│
+├── src/
+│   └── expense_analyzer.py
+│
+├── .gitignore
+├── LICENSE
 ├── README.md
-├── requirements.txt
-└── .gitignore
-
-## Analysis
-
-The project analyzes:
-
-- Total spending
-- Average transaction
-- Average daily spending
-- Highest spending category
-- Highest spending description
-- Top 5 spending descriptions
-
-## Visualizations
-
-### Category Spending
-
-![Category Spending](outputs/charts/category_spending.png)
-
-### Daily Expense Trend
-
-![Daily Expense Trend](outputs/charts/daily_expense_trend.png)
-
-### Top 5 Spending
-
-![Top 5 Spending](outputs/charts/top_5_spending.png)
-
-## How to Run
-
-Clone the repository:
-
-git clone (https://github.com/Raihanthec0der/Personal-Expense-Analyzer)
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run:
-
-python src/expense_analyzer.py
+└── requirements.txt
