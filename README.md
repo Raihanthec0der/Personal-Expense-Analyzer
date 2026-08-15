@@ -60,7 +60,7 @@ The project analyzes:
 
 Clone the repository:
 
-git clone YOUR_REPOSITORY_URL
+git clone (https://github.com/Raihanthec0der/Personal-Expense-Analyzer)
 
 Install dependencies:
 
